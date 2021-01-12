@@ -1,12 +1,12 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4049946.svg)](https://doi.org/10.5281/zenodo.4049946)
-[![issues](https://img.shields.io/github/issues/Zafiirah13/FRBID)](https://github.com/Zafiirah13/FRBID/issues)
-[![forks](https://img.shields.io/github/forks/Zafiirah13/FRBID)](https://github.com/Zafiirah13/FRBID/network/members)
-[![stars](https://img.shields.io/github/stars/Zafiirah13/FRBID)](https://github.com/Zafiirah13/FRBID/stargazers)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4434307.svg)](https://doi.org/10.5281/zenodo.4434307)
+[![issues](https://img.shields.io/github/issues/Zafiirah13/multi_input_frbid)](https://github.com/Zafiirah13/multi_input_frbid/issues)
+[![forks](https://img.shields.io/github/forks/Zafiirah13/multi_input_frbid)](https://github.com/Zafiirah13/multi_input_frbid/network/members)
+[![stars](https://img.shields.io/github/stars/Zafiirah13/multi_input_frbid)](https://github.com/Zafiirah13/multi_input_frbid/stargazers)
 # Multi-Input FRBID - MeerKAT Fast Radio Burst Intelligent Distinguisher using Deep Learning
 
 Identification of Fast Radio Burst/Single Pulses (FRB/SP) and Radio Frequency Interference (RFI) using Deep Convolutional Neural Network for MeerKAT facility. The code uses two inputs: the DM-Time and Frequency-Time images/arrays. Each image acts as an input to a CNN. At the end both DM-T CNN and Freq-T CNN are fused and pass through dense layers as shown in the figure below.
 
-![alt tag](./plots/multi-input-FRBID.pdf)
+![alt tag](./plots/multi-input-FRBID.png)
 
 Installation
 ---
