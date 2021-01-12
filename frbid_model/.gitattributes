@@ -1,0 +1,4 @@
+*.h5[[:space:]]*.json”
+git[[:space:]]add[[:space:]]/Users/A2Z/GitHub/multi_input_frbid/frbid_model/*
+git[[:space:]]commit[[:space:]]-m[[:space:]]add filter=lfs diff=lfs merge=lfs -text
+/Users/A2Z/GitHub/multi_input_frbid/frbid_model/MULTIINPUT.json filter=lfs diff=lfs merge=lfs -text
