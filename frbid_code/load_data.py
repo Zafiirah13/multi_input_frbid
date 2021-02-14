@@ -70,11 +70,11 @@ def load_data(csv_files='./data/csv_labels/test_set.csv', data_dir = './data/tes
         dm_img = dm_time_img.reshape(dm_time_img.shape[0], 256, 256 , 1)
         fq_img = fq_time_img.reshape(fq_time_img.shape[0], 256, 256 , 1)
 
-        dm_img = dm_img/255.
-        fq_img = fq_img/255.
+        #dm_img = dm_img/255.
+        #fq_img = fq_img/255.
 
-        dm_img = dm_img.astype(np.float32)
-        fq_img = fq_img.astype(np.float32)
+        #dm_img = dm_img.astype(np.float32)
+        #fq_img = fq_img.astype(np.float32)
 
     ID = np.array(ID)
     Y = np.array(y).astype(np.int32)
