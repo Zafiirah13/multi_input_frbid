@@ -69,7 +69,8 @@ def load_data(csv_files='./data/csv_labels/test_set.csv', data_dir = './data/tes
     if n_images == 'dm_time_fq_time':
         dm_img = dm_time_img.reshape(dm_time_img.shape[0], 256, 256 , 1)
         fq_img = fq_time_img.reshape(fq_time_img.shape[0], 256, 256 , 1)
-
+        
+        ## Comment Normalisation
         #dm_img = dm_img/255.
         #fq_img = fq_img/255.
 
